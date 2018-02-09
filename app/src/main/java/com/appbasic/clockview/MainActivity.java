@@ -32,12 +32,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         RelativeLayout clock_img = (RelativeLayout) findViewById(R.id.clock_img);
-        clock_img.getLayoutParams().height = (w * 70) / 100;
-        clock_img.getLayoutParams().width = (w * 70) / 100;
+        clock_img.getLayoutParams().height = (w * 60) / 100;
+        clock_img.getLayoutParams().width = (w * 60) / 100;
 
         RelativeLayout clock_view = (RelativeLayout) findViewById(R.id.clock_view);
-        clock_view.getLayoutParams().height = (w * 70) / 100;
-        clock_view.getLayoutParams().width = (w * 70) / 100;
+        clock_view.getLayoutParams().height = (w * 60) / 100;
+        clock_view.getLayoutParams().width = (w * 60) / 100;
         clock_view.addView(new ClockView(getApplicationContext()));
 
 
